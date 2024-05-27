@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<!-- When we do shift 1 (Exclamation mark) and tab, it will autofill--> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AC3's Website</title>
+    <link rel = "stylesheet" href = "styles.css">
+    <script src="https://kit.fontawesome.com/1194e7ab4f.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <!-- Add google fonts here by embedding it and putting the link-->
+</head>
+<body>
+    <!-- Navbar section (Logo)-->
+    <nav class="navbar">
+        <div class="navbar__container"> <!-- Creating a div class called navbar_)container-->
+            <a href="/index.html" id="navbar__logo">AC3's Website</a>
+            <div class="navbar__toggle" id="mobile-menu"> <!-- .navbar__toggle creates a div class called navbar__toggle-->
+            <!-- #mobile-menu creates an id called mobile-menu-->
+            <!-- We have three bars for the drop down menu-->
+                <span class="bar"></span> 
+                <span class="bar"></span>
+                <span class="bar"></span>
+        <!-- div - A division or a section in an HTML Document-->
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="index.html" class="navbar__links">Home </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="projects.html" class="navbar__links">Projects </a> <!--When we click on tech takes us to /tech.html-->
+                </li>
+                <li class="navbar__item">
+                    <a href="tech.html" class="navbar__links">About Me </a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="contact.html" class="button">Contact </a>
+                </li>
+            </ul>
+        </div> 
+    </nav>
+
+    <!-- Hero Seciton-->
+    <div class = "tempMain">
+        <!-- Creating a class name element called main container-->
+        <div class = "tempMainContainer">
+            <div class = "tempMainWords">
+                <!-- We are writing the main text on our website here-->
+                <h1> Previous Projects </h1>
+                <h2> As a Computer Science student, I have created multiple projects in the past and on this
+                    page, I will include a couple of them!
+                </h2>
+                <!--<button class="main__btn"><a href= "/">Get Started</a>
+                </button>-->
+            </div>
+            <!-- Another div class inside of main container -->
+            <!-- Make sure the inserted svg file is the same as the img one here-->
+            <!-- We can add png or jpg as well doesnt have to be an svg-->
+            <!--<div class = "myContainer">
+                <img src = "images/Me.jpg" alt = "pic" id = "me__img">
+            </div>-->
+        </div>
+    </div>
+
+
+    <!-- New Section of the page 
+    <div class = "Projects">
+        <h1> Hobbies </h1>
+        <div class = "nContainer">
+            <div class = "meCard">
+                <h2> Basketball </h2>
+                <p> Growing up, I have always been involved in various sports but basketball was always
+                    my favourite one!  </p>
+                <img src = "images/Basketball.jpg" alt = "pic" id = "ballImg" />
+            </div>
+            <div class = "meCard2">
+                <h2> Hiking </h2>
+                <p> Another hobby I have is to go hike with friends and family. As seen in this picture, I was on 
+                    a vacation in Hawaii where I was hiking up an extinct volcano!  </p>
+                <img src = "images/Hike.jpg" alt = "pic" id = "hikeImg" />
+            </div> 
+        </div>
+    </div>
+
+-->
+<!-- AVL Tree section -->
+<div class = "main">
+    <!-- Creating a class name element called main container-->
+    <div class = "main__container">
+        <div class = "mainWords">
+            <!-- We are writing the main text on our website here-->
+            <h1> 1) AVL Tree Project </h1>
+            <h2> I created this project in one of my CMPT courses. </h2>
+            <h3> The purpose of it is it first gets numbers to be put in a tree where each number represents a Node. Afterwards for each
+                new node that is added in or removed, the program manually checks each time to see if the AVL tree is balanced
+                and if it isn't it will self balance! </h3>
+            <button class="main__btn"><a href= "https://github.com/acheng001/AVLTreeProject"> Check it out</a>
+            <!--<button class="main__btn"><a href= "/">Get Started</a>
+            </button>-->
+        </div>
+        <!-- Another div class inside of main container -->
+        <!-- Make sure the inserted svg file is the same as the img one here-->
+        <!-- We can add png or jpg as well doesnt have to be an svg-->
+        <div class = "myContainer">
+            <img src = "images/AVL.jpg" alt = "pic" id = "me__img">
+        </div>
+    </div>
+</div>
+
+<!-- Music Playlist Sorter section -->
+<div class = "main">
+    <!-- Creating a class name element called main container-->
+    <div class = "main__container">
+        <div class = "mainWords">
+            <!-- We are writing the main text on our website here-->
+            <h1> 2) Music Playlist Sorter</h1>
+            <h2> This project consists of using linked lists where it has five functions. It can add (A song at a certain position), delete (A song at a certain position,
+                 swap the order of the songs, print all of them or quit the program. It was also done in C++ and in summary,
+                 the project is a simiplified version of Spotify or iMusic!
+            </h2>
+            <button class="main__btn"><a href= "https://github.com/acheng001/MusicPlayList.git"> Check it out</a>
+            <!--<button class="main__btn"><a href= "/">Get Started</a>
+            </button>-->
+        </div>
+        <!-- Another div class inside of main container -->
+        <!-- Make sure the inserted svg file is the same as the img one here-->
+        <!-- We can add png or jpg as well doesnt have to be an svg-->
+        <div class = "myContainer">
+            <img src = "images/Spotify.jpg" alt = "pic" id = "me__img">
+        </div>
+    </div>
+</div>
+
+<!-- Undecided section-->
+<div class = "main">
+    <!-- Creating a class name element called main container-->
+    <div class = "main__container">
+        <div class = "mainWords">
+            <!-- We are writing the main text on our website here-->
+            <h1> 3) Image Processor</h1>
+            <h2> This project was programmed in Python where it takes an image and can rotate or apply different filters on it.
+                In total there are five different options the user can choose from that modifies the image! An example of one of the modifications
+                is show in the image on the right which transformed the original image to a grayscale filter!
+            </h2>
+            <button class="main__btn"><a href= "https://replit.com/@ACheng002/Real-Interactive-Image-Processor#result-option5.jpg"> Check it out</a>
+            <!--<button class="main__btn"><a href= "/">Get Started</a>
+            </button>-->
+        </div>
+        <!-- Another div class inside of main container -->
+        <!-- Make sure the inserted svg file is the same as the img one here-->
+        <!-- We can add png or jpg as well doesnt have to be an svg-->
+        <div class = "myContainer">
+            <img src = "images/Dog.jpg" alt = "pic" id = "me__img">
+        </div>
+        
+    </div>
+</div>
+     <!-- Footer/Last section of the page-->
+     <div class="footerContainer">
+        <div class="footerLinks">
+            <div class="footerWrapper">
+                <div class="footerItems">
+                    <h2> About me</h2>
+                    <a href="/HTML/tech.html"> Who I am</a>
+                </div>
+                <div class="footerItems">
+                    <h2> Contact me</h2>
+                    <a href="https://www.facebook.com/profile.php?id=100010655654410"> Facebook </a>
+                    <a href="https://www.instagram.com/angus_cheng001/"> Instagram </a>
+                    <a href="/HTML/contact.html"> Email</a>
+                </div>
+            </div>
+        </div>
+        <div class="socialMedia">
+            <div class="wrap">
+                <div class="footerLogo">
+                    <a href="/HTML/tech.html" id = "footer__logo">AC3</a>
+                </div>
+                <p class = "websiteRight"> AC3 2022 where All Rights Are Reserved</p>
+                <div class="socialIcons">
+                    <a href = "https://www.facebook.com/profile.php?id=100010655654410" class = "socialIconLink" target = "_blank"> <!-- Makes it so it opens in another browser-->
+                        <i class = "fab fa-facebook"></i>
+                    </a>
+                    <a href = "https://www.instagram.com/angus_cheng001/" class = "socialIconLink" target = "_blank"> <!-- Makes it so it opens in another browser-->
+                        <i class = "fab fa-instagram"></i>
+                    </a>
+                    <!---
+                    <a href = "/" class = "socialIconLink" target = "_blank"> 
+                        <i class = "fab fa-linkedin"></i>
+                    </a>-->
+                    <a href = "https://www.youtube.com/channel/UCTfU3W1o5cA0RZnU1KnxfGw" class = "socialIconLink" target = "_blank"> <!-- Makes it so it opens in another browser-->
+                        <i class = "fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

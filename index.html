@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!-- When we do shift 1 (Exclamation mark) and tab, it will autofill--> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AC3's Website</title>
+    <link rel = "stylesheet" href = "styles.css">
+    <script src="https://kit.fontawesome.com/1194e7ab4f.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <!-- Add google fonts here by embedding it and putting the link-->
+</head>
+<body>
+    <!-- Navbar section (Logo)-->
+    <nav class="navbar">
+        <div class="navbar__container"> <!-- Creating a div class called navbar_)container-->
+            <a href="/index.html" id="navbar__logo">AC3's Website</a>
+            <div class="navbar__toggle" id="mobile-menu"> <!-- .navbar__toggle creates a div class called navbar__toggle-->
+            <!-- #mobile-menu creates an id called mobile-menu-->
+            <!-- We have three bars for the drop down menu-->
+                <span class="bar"></span> 
+                <span class="bar"></span>
+                <span class="bar"></span>
+        <!-- div - A division or a section in an HTML Document-->
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="index.html" class="navbar__links">Home </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="projects.html" class="navbar__links">Projects </a> 
+                </li>
+                <li class="navbar__item">
+                    <a href="tech.html" class="navbar__links">About Me </a> <!--When we click on tech takes us to /tech.html-->
+                </li>
+                <li class="navbar__btn">
+                    <a href="contact.html" class="button">Contact </a>
+                </li>
+            </ul>
+        </div> 
+    </nav>
+
+    <!-- Hero Seciton-->
+    <div class = "main">
+        <!-- Creating a class name element called main container-->
+        <div class = "main__container">
+            <div class = "main__content">
+                <!-- We are writing the main text on our website here-->
+                <h1> AC3 Development </h1>
+                <h2> What I Have Done </h2>
+                <p> Why I AM DIFFERENT </p>
+                <button class="main__btn"><a href= "/projects.html">Browse Projects</a>
+                </button>
+            </div>
+            <!-- Another div class inside of main container -->
+            <!-- Make sure the inserted svg file is the same as the img one here-->
+            <!-- We can add png or jpg as well doesnt have to be an svg-->
+            <div class = "main__img--container">
+                <img src = "images/pic1.svg" alt = "pic" id = "main__img" />
+            </div>
+        </div>
+    </div>
+
+    <!-- New Section of the page -->
+    <div class = "Projects">
+        <h1> Projects I have created </h1>
+        <div class = "newContainer">
+            <div class = "spotifyNewCard">
+                <h2> A Music Playlist Sorter! </h2>
+                <button> Find out more</button>
+                <img src = "images/Spotify.jpg" alt = "pic" id = "newImg" />
+            </div>
+            <div class = "newCard">
+                <h2> An Image Processor! </h2>
+                <button> Find out more </button>
+                <img src = "images/Dog.jpg" alt = "pic" id = "newImg" />
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer/Last section of the page-->
+    <div class="footerContainer">
+        <div class="footerLinks">
+            <div class="footerWrapper">
+                <div class="footerItems">
+                    <h2> About me</h2>
+                    <a href="/HTML/tech.html"> Who I am</a>
+                </div>
+                <div class="footerItems">
+                    <h2> Contact me</h2>
+                    <a href="https://www.facebook.com/profile.php?id=100010655654410"> Facebook </a>
+                    <a href="https://www.instagram.com/angus_cheng001/"> Instagram </a>
+                    <a href="/HTML/contact.html"> Email</a>
+                </div>
+            </div>
+        </div>
+        <div class="socialMedia">
+            <div class="wrap">
+                <div class="footerLogo">
+                    <a href="/HTML/tech.html" id = "footer__logo">AC3</a>
+                </div>
+                <p class = "websiteRight"> AC3 2022 where All Rights Are Reserved</p>
+                <div class="socialIcons">
+                    <a href = "https://www.facebook.com/profile.php?id=100010655654410" class = "socialIconLink" target = "_blank"> <!-- Makes it so it opens in another browser-->
+                        <i class = "fab fa-facebook"></i>
+                    </a>
+                    <a href = "https://www.instagram.com/angus_cheng001/" class = "socialIconLink" target = "_blank"> <!-- Makes it so it opens in another browser-->
+                        <i class = "fab fa-instagram"></i>
+                    </a>
+                    <!--
+                    <a href = "/" class = "socialIconLink" target = "_blank"> 
+                        <i class = "fab fa-linkedin"></i>
+                    </a>-->
+                    <a href = "https://www.youtube.com/channel/UCTfU3W1o5cA0RZnU1KnxfGw" class = "socialIconLink" target = "_blank"> <!-- Makes it so it opens in another browser-->
+                        <i class = "fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
